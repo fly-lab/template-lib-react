@@ -41,17 +41,23 @@
   ],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup -- --watch"
+    "dev": "tsup -- --watch",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@fly-lab/eslint-config": "workspace:*",
     "@fly-lab/tsconfig": "workspace:*",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "^18.2.0",
     "terser": "^5.16.8",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=18"
   },
   "config": {
     "commitizen": {
