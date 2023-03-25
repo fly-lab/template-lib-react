@@ -2,6 +2,7 @@
   "version": null,
   "name": "@fly-lab/template-react-tsup",
   "description": "Starting react library template with tsup.",
+  "private": true,
   "author": "DHN Chandan",
   "license": "MIT",
   "main": "./dist/index.cjs",
