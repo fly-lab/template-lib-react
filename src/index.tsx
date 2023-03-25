@@ -5,5 +5,11 @@ export interface IProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 export const Thing: FC<IProps> = ({ children }) => {
-	return <div>{children || `Sample text`}</div>;
+	const [value, setValue] = React.useState(0);
+
+	React.useEffect(() => {
+		setValue(50);
+	}, []);
+
+	return <div>{children || value}</div>;
 };
