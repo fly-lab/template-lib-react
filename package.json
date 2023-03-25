@@ -32,7 +32,10 @@
     "tsup",
     "react"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup -- --watch"
+  },
   "devDependencies": {
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
