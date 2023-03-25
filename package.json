@@ -33,7 +33,10 @@
     "react"
   ],
   "scripts": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.2"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
