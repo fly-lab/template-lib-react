@@ -42,7 +42,10 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup -- --watch",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cz": "git cz",
+    "cz:install": "commitizen init cz-conventional-changelog --yarn --dev --exact",
+    "cz:force": "commitizen init cz-conventional-changelog --yarn --dev --exact --force"
   },
   "devDependencies": {
     "@fly-lab/eslint-config": "workspace:*",
