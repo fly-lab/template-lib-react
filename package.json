@@ -4,14 +4,15 @@
   "description": "Starting react library template with tsup.",
   "author": "DHN Chandan",
   "license": "MIT",
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
   "typings": "./dist/index.d.ts",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.cjs",
   "exports": {
-    "default": "./dist/index.cjs",
-    "require": "./dist/index.cjs",
-    "import": "./dist/index.cjs",
-    "node": "./dist/index.cjs"
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.cjs",
+      "node": "./dist/index.cjs"
+    }
   },
   "type": "module",
   "files": [
@@ -42,7 +43,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup -- --watch",
+    "dev": "pnpm build --watch",
     "prepare": "husky install",
     "cz": "git cz",
     "cz:install": "commitizen init cz-conventional-changelog --yarn --dev --exact",
