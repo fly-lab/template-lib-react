@@ -3,9 +3,16 @@
   "name": "@fly-lab/template-react-tsup",
   "author": "DHN Chandan",
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "module": "dist/index.js",
+  "main": "./dist/index.mjs",
+  "typings": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "default": "./dist/index.cjs",
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs",
+    "node": "./dist/index.cjs"
+  },
+  "type": "module",
   "files": [
     "dist/*"
   ],
