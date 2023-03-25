@@ -9,7 +9,7 @@
   "exports": {
     "default": "./dist/index.cjs",
     "require": "./dist/index.cjs",
-    "import": "./dist/index.mjs",
+    "import": "./dist/index.cjs",
     "node": "./dist/index.cjs"
   },
   "type": "module",
@@ -44,6 +44,8 @@
     "dev": "tsup -- --watch"
   },
   "devDependencies": {
+    "@fly-lab/eslint-config": "workspace:*",
+    "@fly-lab/tsconfig": "workspace:*",
     "terser": "^5.16.8",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
