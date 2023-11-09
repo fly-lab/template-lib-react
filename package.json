@@ -1,7 +1,7 @@
 {
   "version": null,
-  "name": "@fly-lab/template-lib-tsup",
-  "description": "Starting JavaScript library template with tsup.",
+  "name": "@fly-lab/template-lib-react",
+  "description": "Starting reactjs library template with tsup.",
   "private": true,
   "author": "DHN Chandan",
   "license": "MIT",
@@ -28,16 +28,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fly-lab/template-lib-tsup.git"
+    "url": "https://github.com/fly-lab/template-lib-react.git"
   },
   "bugs": {
     "email": "fly.dev.org@gmail.com",
-    "url": "https://github.com/fly-lab/template-lib-tsup/issues"
+    "url": "https://github.com/fly-lab/template-lib-react/issues"
   },
-  "homepage": "https://github.com/fly-lab/template-lib-tsup.git",
+  "homepage": "https://github.com/fly-lab/template-lib-react.git",
   "keywords": [
     "typescript",
     "javascript",
+    "react",
     "library",
     "npm",
     "tsup"
