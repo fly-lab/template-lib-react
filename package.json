@@ -49,7 +49,9 @@
     "prepare": "husky install",
     "cz": "git cz",
     "cz:install": "commitizen init cz-conventional-changelog --yarn --dev --exact",
-    "cz:force": "commitizen init cz-conventional-changelog --yarn --dev --exact --force"
+    "cz:force": "commitizen init cz-conventional-changelog --yarn --dev --exact --force",
+    "ncu": "npx npm-check-updates",
+    "ncu:u": "npx npm-check-updates -u"
   },
   "devDependencies": {
     "@fly-lab/eslint-config": "^1.2.0",
