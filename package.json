@@ -52,8 +52,8 @@
     "cz:force": "commitizen init cz-conventional-changelog --yarn --dev --exact --force"
   },
   "devDependencies": {
-    "@fly-lab/eslint-config": "workspace:*",
-    "@fly-lab/tsconfig": "workspace:*",
+    "@fly-lab/eslint-config": "^1.2.0",
+    "@fly-lab/tsconfig": "^3.0.1",
     "@swc/core": "^1.3.42",
     "@types/node": "^18.15.9",
     "commitizen": "^4.3.0",
